@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-text: #000000;
+    --freeshing-text: #ffffff;
+    --background-sizes: #ececec;;
+}
+/* Sizes */
+.button-in{
+    
+     width: 40px;
+    height: 40px;
+    background: var(--background-sizes);
+    color: var(--primary-text);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin: 6px;
+    padding: 1px;
+    text-align: center;
+    font-size: small;
+    
+}
+.filter-btn{
+    width: 100px;
+}
+#order {
+    padding-left: 40px !important;
+}
+.dropdown-item:hover{
+    background-color: rgb(77, 77, 243);
+    color: white;
+    font-weight: bold;
+}
+.button-in:hover{
+    background-color: orange;
+    color: red;
+    transform: scaleY(1.1);
+    transition: width 2s, height 2s, transform 1s;
+}
+/* Card */
+.freeshipping{
+ background-color: var(--primary-text);
+ color: var(--freeshing-text);
+ position: absolute;
+left:65%;
+ font-size: .6rem;
+ padding: 5px 5px;
+
+}
+.cart-btn:hover{
+    background-color: orange;
+    border: none;
+    transform: scaleY(1.1);
+  transition: width 2s, height 2s, transform 2s
+  
+}
+.line{
+    background-color: gold;
+    width: 40px;
+    margin-left: 42%;
+    height: 2px;
+}
+.card img:hover{
+    border: 1px solid rgb(128, 125, 125);
+}
+.card p{
+    margin-bottom: 0;
+}
+.second-price{
+    color: darkgray;
+}
+/* Footer */
+.foot {
+    background-color:rgb(39, 38, 38);
+}
+.address{
+    color:var(--freeshing-text)
+    
+}
+.foot p{
+    margin-bottom: 0;
+}
+.social{
+    line-height: 2;
+}
